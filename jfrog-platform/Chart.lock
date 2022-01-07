@@ -1,0 +1,27 @@
+dependencies:
+- name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: 10.3.18
+- name: rabbitmq
+  repository: https://charts.bitnami.com/bitnami
+  version: 8.11.4
+- name: redis
+  repository: https://charts.bitnami.com/bitnami
+  version: 12.10.1
+- name: artifactory
+  repository: https://charts.jfrog.io/
+  version: 107.29.8
+- name: xray
+  repository: https://charts.jfrog.io/
+  version: 103.38.2
+- name: distribution
+  repository: https://charts.jfrog.io/
+  version: 102.10.5
+- name: insight
+  repository: https://charts.jfrog.io/
+  version: 101.3.0
+- name: pipelines
+  repository: https://charts.jfrog.io/
+  version: 101.19.4
+digest: sha256:2057c40b90173595f7496f3b403a2ab8cdcdbd3c77a72747c7c18b27d428a979
+generated: "2021-12-28T08:09:13.231383+05:30"
